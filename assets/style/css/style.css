@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-content {
+    letter-spacing: 4px;
+    color: #000!;
+    background-color: #fff;
+    padding: 8px 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+#brand { 
+    padding: 8px 16px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+#about-menu-contact {
+    float: right;
+    letter-spacing: 4px;
+    margin-top: 8px;
+}
+
+#about-menu-contact a {
+    padding: 8px 16px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+}
+
+#brand:hover {
+    color: #000;
+    background-color: #ccc;
+} 
+
+#about-menu-contact a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#slider {
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+    border-style: none;
+    padding-left: 120px;
+    padding-right: 120px ;
+    
+}
+
+#slider-para {
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+    padding: 12px 24px;
+    opacity: 0.60;
+}
+
+#slider-para h1 {
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px
+}
+
+#content {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#about-img {
+    display: inline-block;
+    padding: 12px 24px;
+    width: 49.99999%;
+}
+
+#about-img  img {
+    opacity: 0.75;
+    max-width: 100%;
+}
+
+#about-para {
+    width: 49.99999%;
+    padding: 12px 24px;
+    float: right;
+}
+
+#about-para h1,h5 {
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+#about-para h1 {
+    font-size: 36px;
+
+}
+
+#about-para h5 {
+    font-size: 18px;
+}
+
+#about-para p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+#about-para #seasonal {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    color: #000;
+    background-color: #f1f1f1
+}
+
+#about-para #blur-para {
+    color: #757575;
+
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px
+}
+
+#detail-menu {
+    width: 49.99999%;
+    padding: 12px 24px;
+    display: inline-block;
+
+}
+
+#menu #detail-menu h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#menu {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: 900px;
+}
+
+.h4-para {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.meal-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #757575;
+}
+
+#menu-img {
+    width: 49.99999%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    float: right;
+    height: 757.969px;
+}
+
+#menu-img img {
+    width: 100%;
+    opacity: 0.75;
+    
+}
+
+#contact {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#contact h1 {
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+#contact p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#address {
+    font-size: 18px;
+    color: #607d8b;
+}
+
+#contact form {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#contact form p > input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    line-height: 2;
+}
+
+#contact form p >button {
+    color: #000;
+    background-color: #f1f1f1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact form p > button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#footer {
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+#footer p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#footer p a {
+    color: inherit;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width:1023px) and (min-width:768px) {
+    #slider img{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #blur-para {
+        display: none;
+    }
+
+    #detail-menu {
+        display: block;
+        width: 100%;
+    }
+
+    #detail-menu h1 {
+        text-align: center;
+    }
+
+    #slider-para {
+        left: 0;
+    }
+
+    #menu {
+        box-sizing: border-box;
+        height: 1905px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    #menu-img {
+        width: 100%;
+    }
+}
+
+
+/*Mobile*/
+
+@media only screen and (min-width:374px) and (max-width:767px) {
+#nav-content  #brand {
+        display: block;
+        font-size: 10px;
+    }
+
+.nav-bar  #about-menu-contact {
+        display: none;
+    }
+
+    #slider {
+        bottom: -48px;
+    }
+
+    #slider img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #slider-para {
+        left: -17px;
+    }
+
+    #slider-para h1 {
+        font-size: 20px;
+    }
+
+    #about-img {
+        display: none;
+    }
+
+    #about-para {
+        width: 100%;
+    }
+
+    #content {
+        bottom: -41px;
+        position: relative;
+    }
+
+    #about {
+        height: 827px;
+        padding-bottom: 0px;
+    }
+
+    #menu {
+        height:1406px;
+
+    }   
+
+    #detail-menu {
+        display: block;
+        width: 100%;
+    }
+
+    #menu-img {
+        width: 100%;
+        float: none;
+        padding-bottom: 0px;
+        height:613.969px;
+    }
+}
